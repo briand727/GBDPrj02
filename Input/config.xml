@@ -1,0 +1,6 @@
+<configuration>
+    <excel>
+        <filePath>/path/to/excel/file.xlsx</filePath>
+        <sheetName>Sheet1</sheetName>
+    </excel>
+</configuration>
