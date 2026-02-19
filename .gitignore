@@ -1,0 +1,26 @@
+# Python common exclusions
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+
+# Exclude Excel files
+*.xls
+*.xlsx
+
+# Exclude text files
+*.txt
+
+# Exclude log files
+*.log
+
+# Exclude files in specific folders
+Input/*.xls
+Input/*.xlsx
+Input/*.txt
+Input/*.log
+Output/*.xls
+Output/*.xlsx
+Output/*.txt
+Output/*.log
