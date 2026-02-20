@@ -1,6 +1,17 @@
 <configuration>
-    <excel>
-        <filePath>/path/to/excel/file.xlsx</filePath>
+    <paths>
+        <inputExcel>C:\Projects\MBU\Input\ChargeCentres.xlsx</inputExcel>
         <sheetName>Sheet1</sheetName>
-    </excel>
+        <outputFolder>C:\Projects\MBU\Output</outputFolder>
+        <outputFileName>BudgetCentres.xlsx</outputFileName>
+        <logFileName>BudgetCentres.LOG</logFileName>
+    </paths>
+
+    <database>
+        <server>CL6SQLAPPS3</server>
+        <databaseName>eQuipAM_Live</databaseName>
+        <tableName>budget</tableName>
+        <username></username> <!-- optional for SQL auth -->
+        <password></password> <!-- optional for SQL auth -->
+    </database>
 </configuration>

@@ -9,12 +9,6 @@ __pycache__/
 *.xls
 *.xlsx
 
-# Exclude text files
-*.txt
-
-# Exclude log files
-*.log
-
 # Exclude files in specific folders
 Input/*.xls
 Input/*.xlsx
